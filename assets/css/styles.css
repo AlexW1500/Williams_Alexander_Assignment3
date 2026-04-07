@@ -1,13 +1,9 @@
 <h1> 
-@keyframes fadeIN {
-  from { opacity: 0; }
-  to { opacity: 1; }
+@keyframes animFrames {
+  0% { transform: rotate(0deg); {
+  100% { transform: rotate(360deg); }
 }
-
-.animated-box {
-  width: 100px;
-  height: 100px;
-  background-color: blue;
-  animation: fadeIn 2s ease-in-out;
-}
+.cssAnim {
+  animation-name: animFrames;
+  animation-duration: 2s;
 </h1>
