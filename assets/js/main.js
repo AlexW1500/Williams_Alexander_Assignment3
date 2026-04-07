@@ -9,6 +9,6 @@ document.addEventListener("click", function () {
     let max = 40;
     // update rotation
     rotation += Math.floor(Math.random() * (max - min + 1)) + min;
-    // apply rotation
+    // apply rotate
     document.body.style.transform = `rotate(${rotation}deg)`;
 });
