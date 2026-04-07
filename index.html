@@ -3,12 +3,15 @@
 <head>
 	<meta charset="utf-8">
 	<title>Website Template</title>
-	<link rel="stylesheet" href="./assets/css/styles.css">
 </head>
 <body>
   
 <script>
-  document.body.style.opacity = .5;
+let rotation = 0;
+setInterval(function () {
+	rotation += 5;
+	document.body.style.transform = `rotate(${rotation}deg)`;
+}, 100);
 </script>
   
 </body>
