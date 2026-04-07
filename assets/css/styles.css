@@ -1,3 +1,4 @@
+<h1> 
 @keyframes fadeIN {
   from { opacity: 0; }
   to { opacity: 1; }
@@ -9,3 +10,4 @@
   background-color: blue;
   animation: fadeIn 2s ease-in-out;
 }
+</h1>
