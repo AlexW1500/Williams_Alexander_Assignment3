@@ -6,8 +6,8 @@ html {
 body {
     margin: 1rem;
     background-color: black;
-    color: black;
-    font-size: 5rem;
+    color: dodgerblue;
+    font-size: 10rem;
     overflow: hidden;
 
     background: black url("../img/patrick.gif");
