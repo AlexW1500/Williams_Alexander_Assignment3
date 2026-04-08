@@ -42,13 +42,13 @@ body {
 } */
 
 /* CSS Transition example */
-body { 
+div { 
     animation-name:fadeOut;
     animation-duration: 2s;
 
 div {
     transition-property: transform;
-    transition-duration: 10s;
+    transition-duration: 1s;
 }
 
 /* body {
