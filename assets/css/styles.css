@@ -36,21 +36,6 @@ body {
 /* CSS Animation example */
 
 
-h1 {
-  color: #24292e;
-  text-shadow: 0 0 10px #595442, 0 0 20px #595442, 0 0 30px #595442;
-}
-
-h2 {
-    color: #24292e;
-    text-shadow: 0 0 10px #595442, 0 0 20px #595442, 0 0 30px #595442;
-}
-
-h3 {
-    color: #24292e;
-    text-shadow: 0 0 10px #595442, 0 0 20px #595442, 0 0 30px #595442;
-}
-
 div {
     transition-property: transform;
     transition-duration: 10s;
