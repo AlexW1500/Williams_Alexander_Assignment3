@@ -6,7 +6,7 @@ html {
 body {
     margin: 1rem;
     background-color: black;
-    color: whitesmoke;
+    color: black;
     font-size: 5rem;
     overflow: hidden;
 
@@ -45,7 +45,7 @@ body {
 
 div {
     transition-property: transform;
-    transition-duration: 3s;
+    transition-duration: 10s;
 }
 
 /* body {
