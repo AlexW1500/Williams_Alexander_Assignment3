@@ -5,12 +5,12 @@ html {
 
 body {
     margin: 1rem;
-    background-color: black;
+    background-color: dodgerblue;
     color: black;
     font-size: 5rem;
     overflow: hidden;
 
-    background: black url("../img/water.gif");
+    background: dodgerblue url("../img/leaves.gif");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
