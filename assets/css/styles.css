@@ -25,6 +25,10 @@ body {
     margin: 10% 4rem 0 4rem;
 }
 
+.glow-button {
+  animation: throbbingGlow 2s infinite ease-in-out;
+}
+
 .last {
     padding-bottom: 2rem;
     border-bottom: 2px solid rgb(220, 200, 180);
@@ -32,10 +36,11 @@ body {
 
 /* CSS Animation example */
 
-.glow-box {
-  box-shadow: 0 0 50px rgba(0, 255, 255, 0.8);
+ @keyframes throbbingGlow {
+  0% { box-shadow: 0 0 5px #00f, 0 0 10px #00f; }
+  50% { box-shadow: 0 0 20px #00f, 0 0 30px #00f; }
+  100% { box-shadow: 0 0 5px #00f, 0 0 10px #00f; }
 }
-
 
 div {
     transition-property: transform;
