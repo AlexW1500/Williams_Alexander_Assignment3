@@ -35,17 +35,16 @@ body {
 
 /* CSS Animation example */
 
-.glow-box {
-  background-color: #111;
-  padding: 2rem;
-  border-radius: 10px;
-  /* Multiple shadows create a soft, intense glow */
-  box-shadow: 0 0 10px #0ff, 0 0 20px #0ff;
-  transition: box-shadow 0.3s ease;
+.glow-pulsing {
+  width: 100px;
+  height: 100px;
+  background: white;
+  animation: pulse 2s infinite;
 }
 
-.glow-box:hover {
-  box-shadow: 0 0 20px #0ff, 0 0 40px #0ff;
+@keyframes pulse {
+  0%, 100% { box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); }
+  50% { box-shadow: 0 0 30px rgba(255, 255, 255, 0.8); }
 }
 
 div {
