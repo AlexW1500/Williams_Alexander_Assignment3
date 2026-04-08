@@ -36,7 +36,7 @@ body {
 /* CSS Animation example */
 
  .glow-box {
-  box-shadow: 0 0 15px rgba(0, 255, 255, 0.8);
+  box-shadow: 15 15 15px rgba(255, 255, 255, 1.8);
 }
 
 div {
