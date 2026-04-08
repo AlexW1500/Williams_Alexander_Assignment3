@@ -10,7 +10,7 @@ body {
     font-size: 5rem;
     overflow: hidden;
 
-    background: dodgerblue url("../img/leaves.gif"), url("../img/sun.gif");
+    background: dodgerblue url("../img/leaves.gif")
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
