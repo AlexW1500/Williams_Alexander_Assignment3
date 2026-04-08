@@ -35,8 +35,17 @@ body {
 
 /* CSS Animation example */
 
- .glow-box {
-  box-shadow: 15 15 15px rgba(255, 255, 255, 1.8);
+.glow-box {
+  background-color: #111;
+  padding: 2rem;
+  border-radius: 10px;
+  /* Multiple shadows create a soft, intense glow */
+  box-shadow: 0 0 10px #0ff, 0 0 20px #0ff;
+  transition: box-shadow 0.3s ease;
+}
+
+.glow-box:hover {
+  box-shadow: 0 0 20px #0ff, 0 0 40px #0ff;
 }
 
 div {
