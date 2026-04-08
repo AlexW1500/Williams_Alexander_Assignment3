@@ -42,6 +42,9 @@ body {
 } */
 
 /* CSS Transition example */
+body { 
+    animation-name:fadeOut;
+    animation-duration: 2s;
 
 div {
     transition-property: transform;
