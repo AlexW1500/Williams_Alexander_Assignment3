@@ -25,8 +25,7 @@ body {
     margin: 10% 4rem 0 4rem;
 }
 
-.glow-button {
-  animation: throbbingGlow 2s infinite ease-in-out;
+
 }
 
 .last {
